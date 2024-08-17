@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 63px 0;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.ul__head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.button__1 {
+    color: rgb(255, 255, 255);
+    font-family: "Rubik";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 14px 27px 14px 28px;
+    background-color: #ff6838;
+    border-radius: 5px;
+    border: none;
+    align-items: center;
+}
+
+.li__title {
+    color: rgb(0, 0, 0);
+    font-family: "Rubik";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    transition: 0.5s ease-in-out;
+}
+
+.li__title:hover {
+    color: #ff6838;
+}
+.header{
+    box-sizing: border-box;
+border: 1px solid rgb(188, 170, 170);
+box-shadow: 0px 4px 8.7px 0px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+}
+.doniyor{
+    display: flex;
+    gap: 721px;
+    justify-content: center;
+}
+.om{
+    display: flex;
+}
+.bom{
+    display: flex;
+    align-items: center;
+}
+.h2__title{
+    width: 165px;
+    height: 48px;
+    color: rgb(13, 12, 92);
+font-family: "Inter";
+font-size: 40px;
+font-weight: 600;
+line-height: 48px;
+
+}
+.h2{
+    width: 209px;
+    height: 39px;
+    margin: 0 auto;
+    color: rgb(239, 64, 15);
+font-family: "Inter";
+font-size: 32px;
+font-weight: 600;
+line-height: 39px;
+
+}
+.dir{
+    display: flex;
+}
+.diyora{
+    border-radius: 30px;
+
+box-shadow: 0px 4px 13.3px 0px rgba(0, 0, 0, 0.25);
+background: rgb(255, 255, 255);
+width: 290px;
+height: 290px;
+}
+.rasm{
+    margin: 0 auto;
+    text-align: center  ;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.big_div{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 20px;
+}
+.h3__titleku{
+    text-align: center;
+    color: rgb(0, 0, 0);
+font-family: "Inter";
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+
+}
+.doniku{
+    text-align: center;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.67);
+font-family: "Inter";
+font-size: 16px;
+font-weight: 500;
+line-height: 19px;
+gap: 10px;
+
+}
+.bot{
+    text-align: center;
+   
+}
+.donikut{
+    text-align: center;
+    margin: 0 auto;
+    gap: 10px;
+}
